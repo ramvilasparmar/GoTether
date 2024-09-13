@@ -40,7 +40,7 @@ function Hero() {
         <div className="text-section">
           <h2 className="text-title">Welcome to Gotether</h2>
           <p className="text-descritpion">
-            At Gotether, we understand the dynamic world of cryptocurrency trading.
+            At GoTether, we understand the dynamic world of cryptocurrency trading.
             Our platform is specifically designed for traders like you, looking for
             a reliable and efficient way to buy and sell USDT. With our user-friendly
             interface and cutting-edge security protocols, your trading experience
