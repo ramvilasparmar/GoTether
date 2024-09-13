@@ -1,0 +1,109 @@
+.about-section {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: linear-gradient(to right, #F0F4F7, #E8F0F5);
+}
+
+/* Image */
+.about-image-content {
+    width: 50%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.about-image1 {
+    width: 80%;
+    height: auto;
+    border-radius: 8px; /* Optional: add border radius for a softer look */
+}
+
+/* Text */
+.about-text-content {
+    width: 50%;
+}
+
+.about-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #39c19d; /* Changed to a color that fits the crypto theme */
+}
+
+.about-title > span {
+    position: relative;
+}
+
+.about-title span::before {
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 4px;
+    background-color: #39c19d;
+    border-radius: 8px;
+    left: 0;
+    bottom: -12px;
+}
+
+.about-description {
+    margin: 32px 0;
+    color: #333333; /* Darker color for better readability */
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .7px;
+    line-height: 1.7rem;
+}
+
+.about-text-title {
+    margin: 0 0 24px 0;
+    color: #333333; /* Darker color for better readability */
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+
+/* Steps */
+.about-text-step {
+    margin: 16px 0;
+}
+
+.about-text-sTitle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+
+.about-text-description {
+    margin: 8px 24px;
+    color: #333333; /* Darker color for better readability */
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: .7px;
+    line-height: 1.6rem;
+}
+
+.fa-icon {
+    color: #39c19d; /* Changed to match the crypto theme */
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+    .about-section {
+        display: block;
+    }
+    .about-image-content {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 32px 0;
+    }
+    .about-image1 {
+        width: 100%;
+        height: auto; /* Ensure aspect ratio is maintained */
+    }
+    .about-text-content {
+        width: 100%;
+    }
+}
