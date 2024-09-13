@@ -15,10 +15,10 @@ function Home() {
       <Hero />
       <Info />
       <About />
-      {/* <BookAppointment /> */}
-      {/* <Reviews /> */}
-      {/* <Doctors />
-      <Footer /> */}
+      {/* <BookAppointment />  */}
+      <Reviews /> 
+      {/* <Doctors /> */}
+      <Footer />
     </div>
   );
 }

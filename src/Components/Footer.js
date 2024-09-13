@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/Footer.css";
-import SubscribeNewsletter from "./SubscribeNewsletter";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -10,53 +9,38 @@ function Footer() {
         <div className="ft-info">
           <div className="ft-info-p1">
             <p className="ft-title">
-              Health <span className="ft-sign">+</span>
+              GoTether
             </p>
             <p className="ft-description">
-              Talk to online doctors and get medical advice, online
-              prescriptions, refills and medical notes within minutes. On-demand
-              healthcare services at your fingertips.
+            At GoTether, we understand the dynamic world of cryptocurrency trading. 
+            Your trading experience is not only streamlined but also safe. 
+            Join our growing community of savvy traders and take your cryptocurrency journey to the next level!
             </p>
           </div>
 
-          <SubscribeNewsletter />
+          
         </div>
 
-        <div className="ft-list">
-          <p className="ft-list-title">Services</p>
+        {/* <div className="ft-list">
+          <p className="ft-list-title">Trade</p>
           <ul className="ft-list-items">
             <li>
-              <a href="#services">Emergency Care</a>
+              <a href="#services">Buy USDT</a>
             </li>
             <li>
-              <a href="#services">Heart Disease</a>
-            </li>
-            <li>
-              <a href="#services">Dental Care</a>
-            </li>
-            <li>
-              <a href="#services">Prescription</a>
-            </li>
-            <li>
-              <a href="#services">Insights for doctors</a>
+              <a href="#services">Sell USDT</a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="ft-list">
           <p className="ft-list-title">Legal</p>
           <ul className="ft-list-items">
             <li>
-              <Link to={"/legal"}>General Info</Link>
-            </li>
-            <li>
               <Link to={"/legal"}>Privacy Policy</Link>
             </li>
             <li>
               <Link to={"/legal"}>Terms of Services</Link>
-            </li>
-            <li>
-              <Link to={"/legal"}>Consultations</Link>
             </li>
             <li>
               <Link to={"/legal"}>How it Works</Link>
@@ -68,7 +52,7 @@ function Footer() {
           <p className="ft-list-title">Talk To Us</p>
           <ul className="ft-list-items">
             <li>
-              <a href="mailto:support@healthplus.com">support@healthplus.com</a>
+              <a href="mailto:support@gotether.com">support@gotether.com</a>
             </li>
             <li>
               <a href="mailto:appointment@healthplus.com">
@@ -86,12 +70,12 @@ function Footer() {
       </div>
 
       <div className="ft-copyright">
-        <p>© 2013-2023 Health+. All rights reserved.</p>
+        <p>© 2023-2024 GoTether. All rights reserved.</p>
 
         <ul className="ft-social-links">
           <li>
             <a
-              href="https://linkedin.com/in/Alkaison/"
+              href="#"
               title="LinkedIn"
               target="_blank"
               rel="noopener noreferrer"
@@ -108,7 +92,7 @@ function Footer() {
 
           <li>
             <a
-              href="https://facebook.com/"
+              href="#"
               title="FaceBook"
               target="_blank"
               rel="noopener noreferrer"
@@ -125,7 +109,7 @@ function Footer() {
 
           <li>
             <a
-              href="https://x.com/Alkaison/"
+              href="#"
               title="Twitter"
               target="_blank"
               rel="noopener noreferrer"
