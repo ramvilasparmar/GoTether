@@ -27,7 +27,7 @@ function Info() {
         />
 
         <InformationCard
-          title="Advanced Security"
+          title="Competive Price"
           description="We prioritize your safety with industry-leading encryption technology and two-factor authentication (2FA)."
           icon={faLock} // Updated icon
         />
